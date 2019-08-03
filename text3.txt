@@ -1,0 +1,11 @@
+package document_searcher.document;
+
+import java.io.File;
+
+public class Start {
+	private final String CURRENT_DOCUMENT_INDEX_FILE_PATH="./temp/index.json";
+	private final String CURRENT_DOCUMENT_INDEX_FILE_PATH="./temp/index.json";
+	private final String CURRENT_DOCUMENT_INDEX_FILE_PATH="./temp/index.json";
+	private final String CURRENT_DOCUMENT_INDEX_FILE_PATH="./temp/index.json";
+	private final String CURRENT_DOCUMENT_INDEX_FILE_PATH="./temp/index.json";
+	private final String CURRENT_DOCUMENT_INDEX_FILE_PATH="./temp/index.json";

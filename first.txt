@@ -1,0 +1,17 @@
+[ 
+	{
+		"word" : "~",
+		"documents" : [ 
+			{
+				"id" : 0,
+				"freq": 0,
+				"indexes" : [ 
+					{
+						"line_number" : 0,
+						"starting_position" : 0
+					} 
+				]
+			}	 
+		]
+	}
+]

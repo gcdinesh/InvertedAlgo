@@ -1,0 +1,28 @@
+[ {
+  "word" : "a",
+  "documents" : [ {
+    "id" : 1,
+    "freq" : 1,
+    "indexes" : [ {
+      "lineNumber" : 0,
+      "startingIndex" : 0
+    } ]
+  }, {
+    "id" : 2,
+    "freq" : 1,
+    "indexes" : [ {
+      "lineNumber" : 0,
+      "startingIndex" : 0
+    } ]
+  } ]
+}, {
+  "word" : "~",
+  "documents" : [ {
+    "id" : 0,
+    "freq" : 2,
+    "indexes" : [ {
+      "line_number" : 0,
+      "starting_position" : 0
+    } ]
+  } ]
+} ]

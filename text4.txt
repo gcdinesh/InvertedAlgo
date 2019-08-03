@@ -1,0 +1,265 @@
+Big data
+From Wikipedia, the free encyclopedia
+This article is about large collections of data. For the band, see Big Data (band).
+
+Growth of and digitization of global information-storage capacity[1]
+Big data is data sets that are so voluminous and complex that traditional data processing application software are inadequate to deal with them. Big data challenges include capturing data, data storage, data analysis, search, sharing, transfer, visualization, querying, updating and information privacy. There are five dimensions to big data known as Volume, Variety, Velocity and the recently added Veracity and Value.
+
+Lately, the term "big data" tends to refer to the use of predictive analytics, user behavior analytics, or certain other advanced data analytics methods that extract value from data, and seldom to a particular size of data set. "There is little doubt that the quantities of data now available are indeed large, but that’s not the most relevant characteristic of this new data ecosystem."[2] Analysis of data sets can find new correlations to "spot business trends, prevent diseases, combat crime and so on."[3] Scientists, business executives, practitioners of medicine, advertising and governments alike regularly meet difficulties with large data-sets in areas including Internet search, fintech, urban informatics, and business informatics. Scientists encounter limitations in e-Science work, including meteorology, genomics,[4] connectomics, complex physics simulations, biology and environmental research.[5]
+
+Data sets grow rapidly - in part because they are increasingly gathered by cheap and numerous information-sensing Internet of things devices such as mobile devices, aerial (remote sensing), software logs, cameras, microphones, radio-frequency identification (RFID) readers and wireless sensor networks.[6][7] The world's technological per-capita capacity to store information has roughly doubled every 40 months since the 1980s;[8] as of 2012, every day 2.5 exabytes (2.5×1018) of data are generated.[9] By 2025, IDC predicts there will be 163 zettabytes of data.[10] One question for large enterprises is determining who should own big-data initiatives that affect the entire organization.[11]
+
+Relational database management systems and desktop statistics- and visualization-packages often have difficulty handling big data. The work may require "massively parallel software running on tens, hundreds, or even thousands of servers".[12] What counts as "big data" varies depending on the capabilities of the users and their tools, and expanding capabilities make big data a moving target. "For some organizations, facing hundreds of gigabytes of data for the first time may trigger a need to reconsider data management options. For others, it may take tens or hundreds of terabytes before data size becomes a significant consideration."[13]
+
+Contents 
+1	Definition
+2	Characteristics
+3	Architecture
+4	Technologies
+5	Applications
+5.1	Government
+5.2	International development
+5.3	Manufacturing
+5.4	Healthcare
+5.5	Education
+5.6	Media
+5.7	Internet of Things (IoT)
+5.8	Information Technology
+6	Case studies
+6.1	Government
+6.1.1	United States of America
+6.1.2	India
+6.1.3	United Kingdom
+6.2	Retail
+6.3	Science
+6.4	Sports
+6.5	Technology
+7	Research activities
+7.1	Sampling big data
+8	Critique
+8.1	Critiques of the big data paradigm
+8.2	Critiques of the 'V' Model
+8.3	Critiques of big data execution
+9	See also
+10	References
+11	Further reading
+12	External links
+Definition
+
+Visualization created by IBM of daily Wikipedia edits . At multiple terabytes in size, the text and images of Wikipedia are an example of big data.
+The term has been in use since the 1990s, with some giving credit to John Mashey for coining or at least making it popular.[14][15] Big data usually includes data sets with sizes beyond the ability of commonly used software tools to capture, curate, manage, and process data within a tolerable elapsed time.[16] Big Data philosophy encompasses unstructured, semi-structured and structured data, however the main focus is on unstructured data.[17] Big data "size" is a constantly moving target, as of 2012 ranging from a few dozen terabytes to many petabytes of data.[18] Big data requires a set of techniques and technologies with new forms of integration to reveal insights from datasets that are diverse, complex, and of a massive scale.[19]
+
+A consensual definition that states that "Big Data represents the Information assets characterized by such a High Volume, Velocity and Variety to require specific Technology and Analytical Methods for its transformation into Value".[20] Additionally, a new V "Veracity" is added by some organizations to describe it,[21] revisionism challenged by some industry authorities.[22] The 3Vs have been expanded to other complementary characteristics of big data:[23][24]
+
+Volume: big data doesn't sample; it just observes and tracks what happens
+Velocity: big data is often available in real-time
+Variety: big data draws from text, images, audio, video; plus it completes missing pieces through data fusion
+Machine learning: big data often doesn't ask why and simply detects patterns[25]
+Digital footprint: big data is often a cost-free byproduct of digital interaction[24][26]
+The growing maturity of the concept more starkly delineates the difference between big data and Business Intelligence:[27]
+
+Business Intelligence uses descriptive statistics with data with high information density to measure things, detect trends, etc..
+Big data uses inductive statistics and concepts from nonlinear system identification[28] to infer laws (regressions, nonlinear relationships, and causal effects) from large sets of data with low information density[29] to reveal relationships and dependencies, or to perform predictions of outcomes and behaviors.[28][30]
+Characteristics
+Big data can be described by the following characteristics:[23][24]
+
+Volume
+The quantity of generated and stored data. The size of the data determines the value and potential insight- and whether it can actually be considered big data or not.
+Variety
+The type and nature of the data. This helps people who analyze it to effectively use the resulting insight.
+Velocity
+In this context, the speed at which the data is generated and processed to meet the demands and challenges that lie in the path of growth and development.
+Variability
+Inconsistency of the data set can hamper processes to handle and manage it.
+Veracity
+The data quality of captured data can vary greatly, affecting the accurate analysis.[31]
+Factory work and Cyber-physical systems may have a 6C system:
+
+Connection (sensor and networks)
+Cloud (computing and data on demand)[32][33]
+Cyber (model and memory)
+Content/context (meaning and correlation)
+Community (sharing and collaboration)
+Customization (personalization and value)
+Data must be processed with advanced tools (analytics and algorithms) to reveal meaningful information. For example, to manage a factory one must consider both visible and invisible issues with various components. Information generation algorithms must detect and address invisible issues such as machine degradation, component wear, etc. on the factory floor.[34][35]
+
+Architecture
+Big data repositories have existed in many forms, often built by corporations with a special need. Commercial vendors historically offered parallel database management systems for big data beginning in the 1990s. For many years, WinterCorp published a largest database report.[36]
+
+Teradata Corporation in 1984 marketed the parallel processing DBC 1012 system. Teradata systems were the first to store and analyze 1 terabyte of data in 1992. Hard disk drives were 2.5GB in 1991 so the definition of big data continuously evolves according to Kryder's Law. Teradata installed the first petabyte class RDBMS based system in 2007. As of 2017, there are a few dozen petabyte class Teradata relational databases installed, the largest of which exceeds 50 PB. Systems up until 2008 were 100% structured relational data. Since then, Teradata has added unstructured data types including XML, JSON, and Avro.
+
+In 2000, Seisint Inc. (now LexisNexis Group) developed a C++-based distributed file-sharing framework for data storage and query. The system stores and distributes structured, semi-structured, and unstructured data across multiple servers. Users can build queries in a C++ dialect called ECL. ECL uses an "apply schema on read" method to infer the structure of stored data when it is queried, instead of when it is stored. In 2004, LexisNexis acquired Seisint Inc.[37] and in 2008 acquired ChoicePoint, Inc.[38] and their high-speed parallel processing platform. The two platforms were merged into HPCC (or High-Performance Computing Cluster) Systems and in 2011, HPCC was open-sourced under the Apache v2.0 License. Quantcast File System was available about the same time.[39]
+
+In 2004, Google published a paper on a process called MapReduce that uses a similar architecture. The MapReduce concept provides a parallel processing model, and an associated implementation was released to process huge amounts of data. With MapReduce, queries are split and distributed across parallel nodes and processed in parallel (the Map step). The results are then gathered and delivered (the Reduce step). The framework was very successful,[40] so others wanted to replicate the algorithm. Therefore, an implementation of the MapReduce framework was adopted by an Apache open-source project named Hadoop.[41] Apache Spark was developed in 2012 in response to limitations in the MapReduce paradigm, as it adds the ability to set up many operations (not just map followed by reduce).
+
+MIKE2.0 is an open approach to information management that acknowledges the need for revisions due to big data implications identified in an article titled "Big Data Solution Offering".[42] The methodology addresses handling big data in terms of useful permutations of data sources, complexity in interrelationships, and difficulty in deleting (or modifying) individual records.[43]
+
+2012 studies showed that a multiple-layer architecture is one option to address the issues that big data presents. A distributed parallel architecture distributes data across multiple servers; these parallel execution environments can dramatically improve data processing speeds. This type of architecture inserts data into a parallel DBMS, which implements the use of MapReduce and Hadoop frameworks. This type of framework looks to make the processing power transparent to the end user by using a front-end application server.[44]
+
+Big data analytics for manufacturing applications is marketed as a 5C architecture (connection, conversion, cyber, cognition, and configuration).[45]
+
+The data lake allows an organization to shift its focus from centralized control to a shared model to respond to the changing dynamics of information management. This enables quick segregation of data into the data lake, thereby reducing the overhead time.[46][47]
+
+Technologies
+A 2011 McKinsey Global Institute report characterizes the main components and ecosystem of big data as follows:[48]
+
+Techniques for analyzing data, such as A/B testing, machine learning and natural language processing
+Big data technologies, like business intelligence, cloud computing and databases
+Visualization, such as charts, graphs and other displays of the data
+Multidimensional big data can also be represented as tensors, which can be more efficiently handled by tensor-based computation,[49] such as multilinear subspace learning.[50] Additional technologies being applied to big data include massively parallel-processing (MPP) databases, search-based applications, data mining,[51] distributed file systems, distributed databases, cloud and HPC-based infrastructure (applications, storage and computing resources)[52] and the Internet.[citation needed] Although, many approaches and technologies have been developed, it still remains difficult to carry out machine learning with big data.[53]
+
+Some but not all MPP relational databases have the ability to store and manage petabytes of data. Implicit is the ability to load, monitor, back up, and optimize the use of the large data tables in the RDBMS.[54]
+
+DARPA's Topological Data Analysis program seeks the fundamental structure of massive data sets and in 2008 the technology went public with the launch of a company called Ayasdi.[55]
+
+The practitioners of big data analytics processes are generally hostile to slower shared storage,[56] preferring direct-attached storage (DAS) in its various forms from solid state drive (Ssd) to high capacity SATA disk buried inside parallel processing nodes. The perception of shared storage architectures—Storage area network (SAN) and Network-attached storage (NAS) —is that they are relatively slow, complex, and expensive. These qualities are not consistent with big data analytics systems that thrive on system performance, commodity infrastructure, and low cost.
+
+Real or near-real time information delivery is one of the defining characteristics of big data analytics. Latency is therefore avoided whenever and wherever possible. Data in memory is good—data on spinning disk at the other end of a FC SAN connection is not. The cost of a SAN at the scale needed for analytics applications is very much higher than other storage techniques.
+
+There are advantages as well as disadvantages to shared storage in big data analytics, but big data analytics practitioners as of 2011 did not favour it.[57]
+
+Applications
+
+Bus wrapped with SAP Big data parked outside IDF13.
+Big data has increased the demand of information management specialists so much so that Software AG, Oracle Corporation, IBM, Microsoft, SAP, EMC, HP and Dell have spent more than $15 billion on software firms specializing in data management and analytics. In 2010, this industry was worth more than $100 billion and was growing at almost 10 percent a year: about twice as fast as the software business as a whole.[3]
+
+Developed economies increasingly use data-intensive technologies. There are 4.6 billion mobile-phone subscriptions worldwide, and between 1 billion and 2 billion people accessing the internet.[3] Between 1990 and 2005, more than 1 billion people worldwide entered the middle class, which means more people became more literate, which in turn lead to information growth. The world's effective capacity to exchange information through telecommunication networks was 281 petabytes in 1986, 471 petabytes in 1993, 2.2 exabytes in 2000, 65 exabytes in 2007[8] and predictions put the amount of internet traffic at 667 exabytes annually by 2014.[3] According to one estimate, one-third of the globally stored information is in the form of alphanumeric text and still image data,[58] which is the format most useful for most big data applications. This also shows the potential of yet unused data (i.e. in the form of video and audio content).
+
+While many vendors offer off-the-shelf solutions for big data, experts recommend the development of in-house solutions custom-tailored to solve the company's problem at hand if the company has sufficient technical capabilities.[59]
+
+Government
+The use and adoption of big data within governmental processes allows efficiencies in terms of cost, productivity, and innovation,[60] but does not come without its flaws. Data analysis often requires multiple parts of government (central and local) to work in collaboration and create new and innovative processes to deliver the desired outcome.
+
+International development
+Research on the effective usage of information and communication technologies for development (also known as ICT4D) suggests that big data technology can make important contributions but also present unique challenges to International development.[61][62] Advancements in big data analysis offer cost-effective opportunities to improve decision-making in critical development areas such as health care, employment, economic productivity, crime, security, and natural disaster and resource management.[63][64][65] Additionally, user-generated data offers new opportunities to give the unheard a voice.[66] However, longstanding challenges for developing regions such as inadequate technological infrastructure and economic and human resource scarcity exacerbate existing concerns with big data such as privacy, imperfect methodology, and interoperability issues.[63]
+
+Manufacturing
+Based on TCS 2013 Global Trend Study, improvements in supply planning and product quality provide the greatest benefit of big data for manufacturing. Big data provides an infrastructure for transparency in manufacturing industry, which is the ability to unravel uncertainties such as inconsistent component performance and availability. Predictive manufacturing as an applicable approach toward near-zero downtime and transparency requires vast amount of data and advanced prediction tools for a systematic process of data into useful information.[67] A conceptual framework of predictive manufacturing begins with data acquisition where different type of sensory data is available to acquire such as acoustics, vibration, pressure, current, voltage and controller data. Vast amount of sensory data in addition to historical data construct the big data in manufacturing. The generated big data acts as the input into predictive tools and preventive strategies such as Prognostics and Health Management (PHM).[68][69]
+
+Healthcare
+Big data analytics has helped healthcare improve by providing personalized medicine and prescriptive analytics, clinical risk intervention and predictive analytics, waste and care variability reduction, automated external and internal reporting of patient data, standardized medical terms and patient registries and fragmented point solutions.[70] Some areas of improvement are more aspirational than actually implemented. The level of data generated within healthcare systems is not trivial. With the added adoption of mHealth, eHealth and wearable technologies the volume of data will continue to increase. This includes electronic health record data, imaging data, patient generated data, sensor data, and other forms of difficult to process data. There is now an even greater need for such environments to pay greater attention to data and information quality.[71] "Big data very often means `dirty data' and the fraction of data inaccuracies increases with data volume growth." Human inspection at the big data scale is impossible and there is a desperate need in health service for intelligent tools for accuracy and believability control and handling of information missed.[72] While extensive information in healthcare is now electronic, it fits under the big data umbrella as most is unstructured and difficult to use.[73]
+
+Education
+A McKinsey Global Institute study found a shortage of 1.5 million highly trained data professionals and managers[48] and a number of universities[74] including University of Tennessee and UC Berkeley, have created masters programs to meet this demand. Private bootcamps have also developed programs to meet that demand, including free programs like The Data Incubator or paid programs like General Assembly.[75]
+
+Media
+To understand how the media utilizes big data, it is first necessary to provide some context into the mechanism used for media process. It has been suggested by Nick Couldry and Joseph Turow that practitioners in Media and Advertising approach big data as many actionable points of information about millions of individuals. The industry appears to be moving away from the traditional approach of using specific media environments such as newspapers, magazines, or television shows and instead taps into consumers with technologies that reach targeted people at optimal times in optimal locations. The ultimate aim is to serve or convey, a message or content that is (statistically speaking) in line with the consumer's mindset. For example, publishing environments are increasingly tailoring messages (advertisements) and content (articles) to appeal to consumers that have been exclusively gleaned through various data-mining activities.[76]
+
+Targeting of consumers (for advertising by marketers)
+Data-capture
+Data journalism: publishers and journalists use big data tools to provide unique and innovative insights and infographics.
+Channel 4, the British public-service television broadcaster, is a leader in the field of big data and data analysis.[77]
+
+Internet of Things (IoT)
+Main article: Internet of Things
+Big data and the IoT work in conjunction. Data extracted from IoT devices provides a mapping of device interconnectivity. Such mappings have been used by the media industry, companies and governments to more accurately target their audience and increase media efficiency. IoT is also increasingly adopted as a means of gathering sensory data, and this sensory data has been used in medical [78] and manufacturing [79] contexts.
+
+Kevin Ashton, digital innovation expert who is credited with coining the term [80], defines the Internet of Things in this quote: “If we had computers that knew everything there was to know about things—using data they gathered without any help from us—we would be able to track and count everything, and greatly reduce waste, loss and cost. We would know when things needed replacing, repairing or recalling, and whether they were fresh or past their best.”
+
+Information Technology
+Especially since 2015, big data has come to prominence within Business Operations as a tool to help employees work more efficiently and streamline the collection and distribution of Information Technology (IT). The use of big data to resolve IT and data collection issues within an enterprise is called IT Operations Analytics (ITOA).[81] By applying big data principles into the concepts of machine intelligence and deep computing, IT departments can predict potential issues and move to provide solutions before the problems even happen.[81] In this time, ITOA businesses were also beginning to play a major role in systems management by offering platforms that brought individual data silos together and generated insights from the whole of the system rather than from isolated pockets of data.
+
+Case studies
+Government
+United States of America
+In 2012, the Obama administration announced the Big Data Research and Development Initiative, to explore how big data could be used to address important problems faced by the government.[82] The initiative is composed of 84 different big data programs spread across six departments.[83]
+Big data analysis played a large role in Barack Obama's successful 2012 re-election campaign.[84]
+The United States Federal Government owns four of the ten most powerful supercomputers in the world.[85][86]
+The Utah Data Center has been constructed by the United States National Security Agency. When finished, the facility will be able to handle a large amount of information collected by the NSA over the Internet. The exact amount of storage space is unknown, but more recent sources claim it will be on the order of a few exabytes.[87][88][89]
+India
+Big data analysis was tried out for the BJP to win the Indian General Election 2014.[90]
+The Indian government utilizes numerous techniques to ascertain how the Indian electorate is responding to government action, as well as ideas for policy augmentation.
+United Kingdom
+Examples of uses of big data in public services:
+
+Data on prescription drugs: by connecting origin, location and the time of each prescription, a research unit was able to exemplify the considerable delay between the release of any given drug, and a UK-wide adaptation of the National Institute for Health and Care Excellence guidelines. This suggests that new or most up-to-date drugs take some time to filter through to the general patient.[91]
+Joining up data: a local authority blended data about services, such as road gritting rotas, with services for people at risk, such as 'meals on wheels'. The connection of data allowed the local authority to avoid any weather-related delay.[92]
+Retail
+Walmart handles more than 1 million customer transactions every hour, which are imported into databases estimated to contain more than 2.5 petabytes (2560 terabytes) of data—the equivalent of 167 times the information contained in all the books in the US Library of Congress.[3]
+Windermere Real Estate uses location information from nearly 100 million drivers to help new home buyers determine their typical drive times to and from work throughout various times of the day.[93]
+FICO Card Detection System protects accounts worldwide.[94]
+Science
+The Large Hadron Collider experiments represent about 150 million sensors delivering data 40 million times per second. There are nearly 600 million collisions per second. After filtering and refraining from recording more than 99.99995%[95] of these streams, there are 100 collisions of interest per second.[96][97][98]
+As a result, only working with less than 0.001% of the sensor stream data, the data flow from all four LHC experiments represents 25 petabytes annual rate before replication (as of 2012). This becomes nearly 200 petabytes after replication.
+If all sensor data were recorded in LHC, the data flow would be extremely hard to work with. The data flow would exceed 150 million petabytes annual rate, or nearly 500 exabytes per day, before replication. To put the number in perspective, this is equivalent to 500 quintillion (5×1020) bytes per day, almost 200 times more than all the other sources combined in the world.
+The Square Kilometre Array is a radio telescope built of thousands of antennas. It is expected to be operational by 2024. Collectively, these antennas are expected to gather 14 exabytes and store one petabyte per day.[99][100] It is considered one of the most ambitious scientific projects ever undertaken.[101]
+When the Sloan Digital Sky Survey (SDSS) began to collect astronomical data in 2000, it amassed more in its first few weeks than all data collected in the history of astronomy previously. Continuing at a rate of about 200 GB per night, SDSS has amassed more than 140 terabytes of information.[3] When the Large Synoptic Survey Telescope, successor to SDSS, comes online in 2020, its designers expect it to acquire that amount of data every five days.[3]
+Decoding the human genome originally took 10 years to process, now it can be achieved in less than a day. The DNA sequencers have divided the sequencing cost by 10,000 in the last ten years, which is 100 times cheaper than the reduction in cost predicted by Moore's Law.[102]
+The NASA Center for Climate Simulation (NCCS) stores 32 petabytes of climate observations and simulations on the Discover supercomputing cluster.[103][104]
+Google's DNAStack compiles and organizes DNA samples of genetic data from around the world to identify diseases and other medical defects. These fast and exact calculations eliminate any 'friction points,' or human errors that could be made by one of the numerous science and biology experts working with the DNA. DNAStack, a part of Google Genomics, allows scientists to use the vast sample of resources from Google's search server to scale social experiments that would usually take years, instantly.[105][106]
+23andme's DNA database contains genetic information of over 1,000,000 people worldwide.[107] The company explores selling the "anonymous aggregated genetic data" to other researchers and pharmaceutical companies for research purposes if patients give their consent.[108][109][110][111][112] Ahmad Hariri, professor of psychology and neuroscience at Duke University who has been using 23andMe in his research since 2009 states that the most important aspect of the company's new service is that it makes genetic research accessible and relatively cheap for scientists.[108] A study that identified 15 genome sites linked to depression in 23andMe's database lead to a surge in demands to access the repository with 23andMe fielding nearly 20 requests to access the depression data in the two weeks after publication of the paper.[113]
+Computational Fluid Dynamics (CFD) and hydrodynamic turbulence research generate massive datasets. The Johns Hopkins Turbulence Databases (JHTDB) contains over 350 terabytes of spatiotemporal fields from Direct Numerical simulations of various turbulent flows. Such data have been difficult to share using traditional methods such as downloading flat simulation output files. The data within JHTDB can be accessed using "virtual sensors" with various access modes ranging from direct web-browser queries, access through Matlab, Python, Fortran and C programs executing on clients' platforms, to cut out services to download raw data. The data have been used in over 150 scientific publications.
+Sports
+Big data can be used to improve training and understanding competitors, using sport sensors. It is also possible to predict winners in a match using big data analytics.[114] Future performance of players could be predicted as well. Thus, players' value and salary is determined by data collected throughout the season.[115]
+
+The movie MoneyBall demonstrates how big data could be used to scout players and also identify undervalued players.[116]
+
+In Formula One races, race cars with hundreds of sensors generate terabytes of data. These sensors collect data points from tire pressure to fuel burn efficiency.[117] Based on the data, engineers and data analysts decide whether adjustments should be made in order to win a race. Besides, using big data, race teams try to predict the time they will finish the race beforehand, based on simulations using data collected over the season.[118]
+
+Technology
+eBay.com uses two data warehouses at 7.5 petabytes and 40PB as well as a 40PB Hadoop cluster for search, consumer recommendations, and merchandising.[119]
+Amazon.com handles millions of back-end operations every day, as well as queries from more than half a million third-party sellers. The core technology that keeps Amazon running is Linux-based and as of 2005 they had the world's three largest Linux databases, with capacities of 7.8 TB, 18.5 TB, and 24.7 TB.[120]
+Facebook handles 50 billion photos from its user base.[121]
+Google was handling roughly 100 billion searches per month as of August 2012.[122]
+Oracle NoSQL Database has been tested to past the 1M ops/sec mark with 8 shards and proceeded to hit 1.2M ops/sec with 10 shards.[123]
+Research activities
+Encrypted search and cluster formation in big data were demonstrated in March 2014 at the American Society of Engineering Education. Gautam Siwach engaged at Tackling the challenges of Big Data by MIT Computer Science and Artificial Intelligence Laboratory and Dr. Amir Esmailpour at UNH Research Group investigated the key features of big data as the formation of clusters and their interconnections. They focused on the security of big data and the actual orientation of the term towards the presence of different type of data in an encrypted form at cloud interface by providing the raw definitions and real time examples within the technology. Moreover, they proposed an approach for identifying the encoding technique to advance towards an expedited search over encrypted text leading to the security enhancements in big data.[124]
+
+In March 2012, The White House announced a national "Big Data Initiative" that consisted of six Federal departments and agencies committing more than $200 million to big data research projects.[125]
+
+The initiative included a National Science Foundation "Expeditions in Computing" grant of $10 million over 5 years to the AMPLab[126] at the University of California, Berkeley.[127] The AMPLab also received funds from DARPA, and over a dozen industrial sponsors and uses big data to attack a wide range of problems from predicting traffic congestion[128] to fighting cancer.[129]
+
+The White House Big Data Initiative also included a commitment by the Department of Energy to provide $25 million in funding over 5 years to establish the Scalable Data Management, Analysis and Visualization (SDAV) Institute,[130] led by the Energy Department’s Lawrence Berkeley National Laboratory. The SDAV Institute aims to bring together the expertise of six national laboratories and seven universities to develop new tools to help scientists manage and visualize data on the Department's supercomputers.
+
+The U.S. state of Massachusetts announced the Massachusetts Big Data Initiative in May 2012, which provides funding from the state government and private companies to a variety of research institutions.[131] The Massachusetts Institute of Technology hosts the Intel Science and Technology Center for Big Data in the MIT Computer Science and Artificial Intelligence Laboratory, combining government, corporate, and institutional funding and research efforts.[132]
+
+The European Commission is funding the 2-year-long Big Data Public Private Forum through their Seventh Framework Program to engage companies, academics and other stakeholders in discussing big data issues. The project aims to define a strategy in terms of research and innovation to guide supporting actions from the European Commission in the successful implementation of the big data economy. Outcomes of this project will be used as input for Horizon 2020, their next framework program.[133]
+
+The British government announced in March 2014 the founding of the Alan Turing Institute, named after the computer pioneer and code-breaker, which will focus on new ways to collect and analyse large data sets.[134]
+
+At the University of Waterloo Stratford Campus Canadian Open Data Experience (CODE) Inspiration Day, participants demonstrated how using data visualization can increase the understanding and appeal of big data sets and communicate their story to the world.[135]
+
+To make manufacturing more competitive in the United States (and globe), there is a need to integrate more American ingenuity and innovation into manufacturing ; Therefore, National Science Foundation has granted the Industry University cooperative research center for Intelligent Maintenance Systems (IMS) at university of Cincinnati to focus on developing advanced predictive tools and techniques to be applicable in a big data environment.[136] In May 2013, IMS Center held an industry advisory board meeting focusing on big data where presenters from various industrial companies discussed their concerns, issues and future goals in big data environment.
+
+Computational social sciences – Anyone can use Application Programming Interfaces (APIs) provided by big data holders, such as Google and Twitter, to do research in the social and behavioral sciences.[137] Often these APIs are provided for free.[137] Tobias Preis et al. used Google Trends data to demonstrate that Internet users from countries with a higher per capita gross domestic product (GDP) are more likely to search for information about the future than information about the past. The findings suggest there may be a link between online behaviour and real-world economic indicators.[138][139][140] The authors of the study examined Google queries logs made by ratio of the volume of searches for the coming year ('2011') to the volume of searches for the previous year ('2009'), which they call the 'future orientation index'.[141] They compared the future orientation index to the per capita GDP of each country, and found a strong tendency for countries where Google users inquire more about the future to have a higher GDP. The results hint that there may potentially be a relationship between the economic success of a country and the information-seeking behavior of its citizens captured in big data.
+
+Tobias Preis and his colleagues Helen Susannah Moat and H. Eugene Stanley introduced a method to identify online precursors for stock market moves, using trading strategies based on search volume data provided by Google Trends.[142] Their analysis of Google search volume for 98 terms of varying financial relevance, published in Scientific Reports,[143] suggests that increases in search volume for financially relevant search terms tend to precede large losses in financial markets.[144][145][146][147][148][149][150][151]
+
+Big data sets come with algorithmic challenges that previously did not exist. Hence, there is a need to fundamentally change the processing ways.[152]
+
+The Workshops on Algorithms for Modern Massive Data Sets (MMDS) bring together computer scientists, statisticians, mathematicians, and data analysis practitioners to discuss algorithmic challenges of big data.[153]
+
+Sampling big data
+An important research question that can be asked about big data sets is whether you need to look at the full data to draw certain conclusions about the properties of the data or is a sample good enough. The name big data itself contains a term related to size and this is an important characteristic of big data. But Sampling (statistics) enables the selection of right data points from within the larger data set to estimate the characteristics of the whole population. For example, there are about 600 million tweets produced every day. Is it necessary to look at all of them to determine the topics that are discussed during the day? Is it necessary to look at all the tweets to determine the sentiment on each of the topics? In manufacturing different types of sensory data such as acoustics, vibration, pressure, current, voltage and controller data are available at short time intervals. To predict downtime it may not be necessary to look at all the data but a sample may be sufficient. Big Data can be broken down by various data point categories such as demographic, psychographic, behavioral, and transactional data. With large sets of data points, marketers are able to create and utilize more customized segments of consumers for more strategic targeting.
+
+There has been some work done in Sampling algorithms for big data. A theoretical formulation for sampling Twitter data has been developed.[154]
+
+Critique
+Critiques of the big data paradigm come in two flavors, those that question the implications of the approach itself, and those that question the way it is currently done.[155] One approach to this criticism is the field of Critical data studies.
+
+Critiques of the big data paradigm
+"A crucial problem is that we do not know much about the underlying empirical micro-processes that lead to the emergence of the[se] typical network characteristics of Big Data".[16] In their critique, Snijders, Matzat, and Reips point out that often very strong assumptions are made about mathematical properties that may not at all reflect what is really going on at the level of micro-processes. Mark Graham has leveled broad critiques at Chris Anderson's assertion that big data will spell the end of theory:[156] focusing in particular on the notion that big data must always be contextualized in their social, economic, and political contexts.[157] Even as companies invest eight- and nine-figure sums to derive insight from information streaming in from suppliers and customers, less than 40% of employees have sufficiently mature processes and skills to do so. To overcome this insight deficit, big data, no matter how comprehensive or well analysed, must be complemented by "big judgment," according to an article in the Harvard Business Review.[158]
+
+Much in the same line, it has been pointed out that the decisions based on the analysis of big data are inevitably "informed by the world as it was in the past, or, at best, as it currently is".[63] Fed by a large number of data on past experiences, algorithms can predict future development if the future is similar to the past.[159] If the systems dynamics of the future change (if it is not a stationary process), the past can say little about the future. In order to make predictions in changing environments, it would be necessary to have a thorough understanding of the systems dynamic, which requires theory.[159] As a response to this critique it has been suggested to combine big data approaches with computer simulations, such as agent-based models[63] and Complex Systems. Agent-based models are increasingly getting better in predicting the outcome of social complexities of even unknown future scenarios through computer simulations that are based on a collection of mutually interdependent algorithms.[160][161] In addition, use of multivariate methods that probe for the latent structure of the data, such as factor analysis and cluster analysis, have proven useful as analytic approaches that go well beyond the bi-variate approaches (cross-tabs) typically employed with smaller data sets.
+
+In health and biology, conventional scientific approaches are based on experimentation. For these approaches, the limiting factor is the relevant data that can confirm or refute the initial hypothesis.[162] A new postulate is accepted now in biosciences: the information provided by the data in huge volumes (omics) without prior hypothesis is complementary and sometimes necessary to conventional approaches based on experimentation.[163][164] In the massive approaches it is the formulation of a relevant hypothesis to explain the data that is the limiting factor.[165] The search logic is reversed and the limits of induction ("Glory of Science and Philosophy scandal", C. D. Broad, 1926) are to be considered.[citation needed]
+
+Privacy advocates are concerned about the threat to privacy represented by increasing storage and integration of personally identifiable information; expert panels have released various policy recommendations to conform practice to expectations of privacy.[166][167][168]
+
+Nayef Al-Rodhan argues that a new kind of social contract will be needed to protect individual liberties in a context of Big Data and giant corporations that own vast amounts of information. The use of Big Data should be monitored and better regulated at the national and international levels.[169]Barocas and Nissenbaum argue that one way of protecting individual users is by being informed about the types of information being collected, with whom it is shared, under what constrains and for what purposes.[170]
+
+Critiques of the 'V' Model
+The 'V' model of Big Data is concerting as it centres around computational scalability and lacks in a loss around the perceptibility and understandability of information. This led to the framework of Cognitive Big Data, which characterises Big Data application according to[171]:
+
+Data completeness: understanding of the non-obvious from data;
+Data correlation, causation, and predictability: causality as not essential requirement to achieve predictability;
+Explainability and interpretability: humans desire to understand and accept what they understand, where algorithms don't cope with this;
+Level of automated decision making: algorithms that support automated decision making and algorithmic self-learning;
+Critiques of big data execution
+
+Danah Boyd
+Ulf-Dietrich Reips and Uwe Matzat wrote in 2014 that big data had become a "fad" in scientific research.[137] Researcher Danah Boyd has raised concerns about the use of big data in science neglecting principles such as choosing a representative sample by being too concerned about actually handling the huge amounts of data.[172] This approach may lead to results bias in one way or another. Integration across heterogeneous data resources—some that might be considered big data and others not—presents formidable logistical as well as analytical challenges, but many researchers argue that such integrations are likely to represent the most promising new frontiers in science.[173] In the provocative article "Critical Questions for Big Data",[174] the authors title big data a part of mythology: "large data sets offer a higher form of intelligence and knowledge [...], with the aura of truth, objectivity, and accuracy". Users of big data are often "lost in the sheer volume of numbers", and "working with Big Data is still subjective, and what it quantifies does not necessarily have a closer claim on objective truth".[174] Recent developments in BI domain, such as pro-active reporting especially target improvements in usability of big data, through automated filtering of non-useful data and correlations.[175]
+
+Big data analysis is often shallow compared to analysis of smaller data sets.[176] In many big data projects, there is no large data analysis happening, but the challenge is the extract, transform, load part of data preprocessing.[176]
+
+Big data is a buzzword and a "vague term",[177][178] but at the same time an "obsession"[178] with entrepreneurs, consultants, scientists and the media. Big data showcases such as Google Flu Trends failed to deliver good predictions in recent years, overstating the flu outbreaks by a factor of two. Similarly, Academy awards and election predictions solely based on Twitter were more often off than on target. Big data often poses the same challenges as small data; adding more data does not solve problems of bias, but may emphasize other problems. In particular data sources such as Twitter are not representative of the overall population, and results drawn from such sources may then lead to wrong conclusions. Google Translate—which is based on big data statistical analysis of text—does a good job at translating web pages. However, results from specialized domains may be dramatically skewed. On the other hand, big data may also introduce new problems, such as the multiple comparisons problem: simultaneously testing a large set of hypotheses is likely to produce many false results that mistakenly appear significant. Ioannidis argued that "most published research findings are false"[179] due to essentially the same effect: when many scientific teams and researchers each perform many experiments (i.e. process a big amount of scientific data; although not with big data technology), the likelihood of a "significant" result being actually false grows fast – even more so, when only positive results are published. Furthermore, big data analytics results are only as good as the model on which they are predicated. In an example, big data took part in attempting to predict the results of the 2016 U.S. Presidential Election[180] with varying degrees of success. Forbes predicted "If you believe in Big Data analytics, it’s time to begin planning for a Hillary Clinton presidency and all that entails.".[181]
