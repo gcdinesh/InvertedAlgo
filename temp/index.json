@@ -1,0 +1,16 @@
+[
+{
+	"word":"a",
+	"documents":[
+		{
+			"id":2,
+			"freq":1,
+			"indexes":[
+				{
+					"lineNumber":0,
+					"startingIndex":0
+				}
+			]
+		}
+	]
+}]
